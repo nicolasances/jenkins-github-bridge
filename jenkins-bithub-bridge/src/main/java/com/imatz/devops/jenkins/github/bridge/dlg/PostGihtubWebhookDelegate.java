@@ -37,7 +37,7 @@ public class PostGihtubWebhookDelegate {
 		System.out.println(jenkinsUser_ + ":" + jenkinsPswd_);
 		
 		jenkinsJobCall.setCredentials(credentials);
-		jenkinsJobCall.call("", "POST");
+		jenkinsJobCall.call(null, "GET");
 	}
 
 	/**
